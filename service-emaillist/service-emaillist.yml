@@ -1,0 +1,13 @@
+# configuration: default
+spring:
+
+mybatis:
+   config-location: classpath:mybatis/configuration.xml
+   
+server:
+   port: 0
+   servlet:
+      context-path: /
+      encoding:
+         charset: UTF-8
+         enabled: true
